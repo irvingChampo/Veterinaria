@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(67, 67, 240);
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+}
+
+.img-mover img {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px; /* Ajusta el espacio entre las imágenes según tus necesidades */
+}
+
+.mover a {
+    margin-right: 40px; /* Ajusta el espacio entre los enlaces según tus necesidades */
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.mover a:hover {
+    color: #fff;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    flex: 0 1 calc(30% - 20px); /* Ajusta el tamaño de la card según tus necesidades */
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2, p {
+    margin: 5px 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2em;
+    color: #e6b3b3;
+}
