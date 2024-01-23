@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("../Img/fondo.jpg") center/cover no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px; /* Bordes más redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3); /* Fondo más transparente */
+}
+
+.register-container img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.form-col {
+    flex: 0 0 calc(33.333% - 10px);
+}
+
+.register-container label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+}
+
+.register-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #3265ff;
+    background: transparent;
+    outline: none;
+}
+
+.register-container button {
+    background-color: #3265ff;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.register-container button:hover {
+    background-color: #3265ff;
+}
+
+.login-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.login-link a {
+    color: #3265ff;
+    text-decoration: none;
+    font-weight: bold;
+}
