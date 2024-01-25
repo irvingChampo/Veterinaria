@@ -37,12 +37,11 @@
 .enlaces{
     text-decoration: none;
     color: #FFFFFF;
-    text-shadow: 3px 3px 4px #000000;
     font: normal normal 900 18px/26px Lato;
 
 }
 .enlaces:hover{
-    color: #93F2F5;
+    color: #075269;
 }
 .Alinear{
     width: 80%;
