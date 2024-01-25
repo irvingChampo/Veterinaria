@@ -8,7 +8,7 @@
 .header{
     width: 100%;
     height: 10vh;
-    background-color: #1D8B8F;
+    background-color: #28ced3bd;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,8 +44,7 @@
 .enlaces{
     text-decoration: none;
     color: #FFFFFF;
-    text-shadow: 3px 3px 4px #000000;
-    font: normal normal 900 18px/26px Lato;
+    font: normal normal 900 16px/26px Lato;
 }
 .enlaces:hover{
     color: #93F2F5;
@@ -57,6 +56,8 @@
     justify-content: center;
     flex-wrap: wrap;
     background-color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    color: #707070;
 }
 .producto{
     width: 80%;
@@ -107,7 +108,7 @@ footer{
     width: 100%;
     height: 10vh;
     margin-top: 2%;
-    background-color: #1D8B8F;
+    background-color: #28ced3bd;
     display: flex;
     justify-content: center;
     align-items: center;
