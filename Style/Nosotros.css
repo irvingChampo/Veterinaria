@@ -65,7 +65,7 @@ b{
 }
 .Trayectoria{
     width: 80%;
-    height: 40vh;
+    height: auto;
     background-color: #F2F2F2;
     display: flex;
     justify-content: space-around;
